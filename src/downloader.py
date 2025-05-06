@@ -21,5 +21,5 @@ def start_download(links):
         executor.map(download, links)
 
 if __name__ == "__main__":
-    links = get_links()
+    links = get_links(   "https://www.pornhub.com/view_video.php?viewkey=ph5f9f33677b74d")
     start_download(links)
